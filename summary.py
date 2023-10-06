@@ -83,7 +83,7 @@ documents = []
 #         documents.append(c.text)
 
 # get local file instead
-with open('data/Chinese-text-test.txt', 'r') as f:
+with open('data/text-test.txt', 'r') as f:
     documents.append(f.read())
 
 summary = create_single_summary(documents)
